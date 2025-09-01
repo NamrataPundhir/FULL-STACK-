@@ -1,0 +1,90 @@
+/* 
+*{
+    margin: 0;
+
+padding: 0;
+box-sizing: border-box;
+} */
+
+
+.box{
+    display: grid;
+    grid-template-columns: 300px 400px 400px 200px;
+    grid-template-rows: 300px 500px 200px;
+    gap: 10px;
+
+}
+.child11{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: chartreuse;
+     margin-top: 20px;
+    margin-left: 20px;
+}
+.child22{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: rgb(0, 89, 255);
+     margin-top: 20px;
+    margin-right: 20px;
+}
+.child33{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: rgb(214, 134, 21);
+     margin-bottom: 20px;
+    margin-left: 20px;
+}
+.child44{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: rgb(18, 35, 0);
+     margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.child1{
+    border: 1px dotted red;
+    background-color: pink;
+    /* grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 1; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+   
+
+}
+.child2{
+     border: 1px dotted red;
+    background-color: red;
+}
+.child3{
+     border: 1px dotted red;
+    background-color: yellow;
+}
+.child4{
+     border: 1px dotted red;
+    background-color: olive;
+}
